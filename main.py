@@ -1,7 +1,7 @@
 import streamlit as st
 # from openai import api_key, base_url
 
-# from utills import generater_video_script
+from utills import generater_video_script
 st.title("🎬视频脚本生成器")
 with st.sidebar:
     api_key=st.text_input("请输入API Key",type="password")
