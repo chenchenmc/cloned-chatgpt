@@ -25,8 +25,8 @@ if submit and not base_url:
     st.stop()
 if submit:
     with st.spinner("AI正在思考，请稍等......"):
-        # statusid,search_result,script,title=generater_video_script(subject,video_lenght,creativity, api_key, base_url)
-        statusid=0
+        statusid,search_result,script,title=generater_video_script(subject,video_lenght,creativity, api_key, base_url)
+        # statusid=0
     if statusid==0 or statusid==3:
         st.success("视频脚本已经生成！")
         st.subheader("🔥标题：")
