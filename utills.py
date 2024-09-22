@@ -59,4 +59,6 @@ def generater_video_script(subject,video_length,creativity,
 
     return exit_code,search_result,script,title
 #just for a test
+#print(generater_video_script("如何学习中医",20,0.7,
+#                             os.getenv("OPENAI_API_KEY"),"https://api.aigc369.com/v1"))
 
